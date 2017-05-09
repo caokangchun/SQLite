@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        dbHelper = new MyDatabaseHelper(this,"Book.db",null,5);
+        dbHelper = new MyDatabaseHelper(this,"Book.db",null,9);
         create = (Button) findViewById(R.id.create);
         add = (Button) findViewById(R.id.add);
         update = (Button) findViewById(R.id.update);
